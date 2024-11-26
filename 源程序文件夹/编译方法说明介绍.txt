@@ -1,0 +1,2 @@
+使用visual C++ 6.0或Microsoft Visual Studio 2010 以上任何一个版本打开mytiny.sln文件进行编译运行。
+如果出现提示函数不安全，请在项目->属性->C/C++->预处理器，添加：;_CRT_SECURE_NO_WARNINGS

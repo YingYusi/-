@@ -1,0 +1,15 @@
+﻿  mytiny.cpp
+  parse.cpp
+  scan.cpp
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(55,28): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(83,56): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(99,56): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(110,45): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(117,45): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(126,45): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(135,13): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(153,45): warning C4551: 缺少参数列表的函数调用
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\mytiny\scan.cpp(51,15): warning C4101: “currentToken”: 未引用的局部变量
+  util.cpp
+  正在生成代码...
+  mytiny.vcxproj -> C:\Users\86157\Desktop\大学本科\大三\编译原理\实验3\作业3\源程序文件夹\mytiny\x64\Debug\mytiny.exe

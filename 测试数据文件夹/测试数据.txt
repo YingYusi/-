@@ -1,0 +1,37 @@
+1.
+{ Sample program
+  in TINY language -
+  computes factorial
+}
+read x; { input an integer }
+if 0 < x then { don't compute if x <= 0 }
+  fact := 1;
+  repeat
+    fact := fact * x;
+    x := x - 1
+  until x = 0;
+  write fact  { output factorial of x }
+end
+
+2.
+read n;
+n := n^2^3^4^5;
+write n;
+
+3.
+{ TINY语言实现一个while循环，计算从1到5的累加和 }
+read x;         { 从输入读取初始值 x }
+sum := 0;       { 初始化变量 sum }
+i := 1;         { 初始化循环变量 i }
+while (i <= x) 
+   do
+    sum := sum + i;  { 累加 i 到 sum }
+    i := i + 1;      { 增加 i 的值 }
+  enddo;
+write sum;      { 输出累加结果 sum }
+
+4.
+for i := 1 to 5 do
+    read x;
+    write x;
+enddo;

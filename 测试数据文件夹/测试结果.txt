@@ -1,0 +1,69 @@
+1.
+语法树如下:
+  Read: x
+  If
+    Op: <
+      Const: 0
+      Id: x
+    Assign to: fact
+      Const: 1
+    Repeat
+      Assign to: fact
+        Op: *
+          Id: fact
+          Id: x
+      Assign to: x
+        Op: -
+          Id: x
+          Const: 1
+      Op: =
+        Id: x
+        Const: 0
+    Write
+      Id: fact
+
+2.
+语法树如下:
+  Read: n
+  Assign to: n
+    Op: ^
+      Id: n
+      Op: ^
+        Const: 2
+        Op: ^
+          Const: 3
+          Op: ^
+            Const: 4
+            Const: 5
+  Write
+    Id: n
+
+3.
+语法树如下:
+  Read: x
+  Assign to: sum
+    Const: 0
+  Assign to: i
+    Const: 1
+  Unknown ExpNode kind
+    Op: <=
+      Id: i
+      Id: x
+    Assign to: sum
+      Op: +
+        Id: sum
+        Id: i
+    Assign to: i
+      Op: +
+        Id: i
+        Const: 1
+  Write
+    Id: sum
+
+4.
+  For: i (increment)
+    Const: 1
+    Const: 5
+    Read: x
+    Write
+      Id: x
